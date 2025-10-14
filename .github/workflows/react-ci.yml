@@ -39,7 +39,7 @@ jobs:
  
        - name: Rodar testes
 
-         run: npm test --watchall=false
+         run: npm test -- --watchall=false
  
        - name: Rodar build
 
